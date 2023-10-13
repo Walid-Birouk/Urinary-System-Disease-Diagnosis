@@ -8,8 +8,8 @@ from sklearn.neighbors import KNeighborsClassifier
 
 # Load the dataset
 data = pd.read_csv('data.csv')  # Data for processing
-# Create a copy of the 'data' DataFrame
-diagnosis_data = data.copy()
+# Create a copy of the 'data' DataFrame to use it for display
+diagnosis_data_display = data.copy()
 
 # Data preprocessing
 data['a1'] = data['a1'].str.replace(',', '.').astype(float)  # Convert string to float
