@@ -59,7 +59,7 @@ Each instance in the dataset represents a potential patient, and it was created 
 
 # Dataset display section
 st.header("Dataset")  # Header
-st.write(diagnosis_data)  # Display the dataset
+st.write(diagnosis_data_display)  # Display the dataset
 
 # User input section for symptoms
 st.header("Symptom Input")  # Header
