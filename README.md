@@ -2,7 +2,9 @@
 
 
 This GitHub repository hosts an interactive web application designed to help users diagnose urinary system diseases. The app utilizes machine learning algorithms to predict the presence of two specific diseases: 
-acute inflammation of the urinary bladder and acute nephritis.
+
+- Acute inflammation of the urinary bladder
+- Acute nephritis.
 
 Users can input their symptoms, such as body temperature, occurrence of nausea, lumbar pain, urine pushing, micturition pains, and burning of the urethra.
 
