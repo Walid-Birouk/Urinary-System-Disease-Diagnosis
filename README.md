@@ -16,3 +16,6 @@ Key Features:
 - Accuracy evaluation of the chosen algorithm.
 - Educational information about the two diseases.
 - The application provides a valuable tool for individuals seeking preliminary insights into their health conditions. It serves as an educational resource and demonstrates the application of machine learning in the field of healthcare. The codebase and web app can be used as a reference for similar diagnostic applications and as a learning resource for machine learning enthusiasts.
+
+## Link:
+https://urinary-system-disease-diagnosis.streamlit.app/
