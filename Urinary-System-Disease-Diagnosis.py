@@ -153,9 +153,11 @@ if st.button("Diagnose"):
     st.write("**Inflammation of the urinary bladder (d1):**")
     st.write("Diagnosis:", "**Yes**" if prediction_d1 == "yes" else "**No**")
     st.write("Confidence Level:", f"**{max(prediction_prob_d1[0]):.2f}**")
-    st.write("Accuracy:", f"**{accuracy_d1:.2f}**")
+    if algorithm == "K-Nearest Neighbors (KNN)" or algorithm == "Support Vector Machine (SVM)":
+        st.write("Accuracy:", f"**{accuracy_d1:.2f}**")
 
     st.write("**Nephritis of renal pelvis origin (d2):**")
     st.write("Diagnosis:", "**Yes**" if prediction_d2 == "yes" else "**No**")
     st.write("Confidence Level:", f"**{max(prediction_prob_d2[0]):.2f}**")
-    st.write("Accuracy:", f"**{accuracy_d2:.2f}**")
+    if algorithm == "K-Nearest Neighbors (KNN)" or algorithm == "Support Vector Machine (SVM)":
+        st.write("Accuracy:", f"**{accuracy_d2:.2f}**")
