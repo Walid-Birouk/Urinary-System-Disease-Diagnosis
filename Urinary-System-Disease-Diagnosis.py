@@ -106,15 +106,14 @@ if st.button("Diagnose"):
         prediction_d1 = dt_classifier_d1.predict([list(input_data.values())])[0]
         # Get the probability of each class for the input data
         prediction_prob_d1 = dt_classifier_d1.predict_proba([list(input_data.values())])
-        # Since it's a decision tree, we assume it's perfectly accurate
-        accuracy_d1 = 1.0
+       
 
         # Repeat the same process for diagnosis 2 (d2)
         dt_classifier_d2 = DecisionTreeClassifier()
         dt_classifier_d2.fit(X, y_d2)
         prediction_d2 = dt_classifier_d2.predict([list(input_data.values())])[0]
         prediction_prob_d2 = dt_classifier_d2.predict_proba([list(input_data.values())])
-        accuracy_d2 = 1.0
+      
 
     # If the selected algorithm is K-Nearest Neighbors (KNN)
     elif algorithm == "K-Nearest Neighbors (KNN)":
